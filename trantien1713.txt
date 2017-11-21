@@ -1,0 +1,24 @@
+Phần Mềm được SHARE FREE vĩnh viễn. Nếu có thắc mắc các bạn có thể liên hệ bên dưới để được hỗ trợ
+LOLSkinVery
+
+Check JSON
+
+
+X
+-
+Thông tin acc :
+Check SKIN LOL
+NAME : Ck Của Phượng
+Rank :GOLD - V
+Khung mùa trước : GOLD
+Cấp : GOLD
+IP : 677
+RP :3
+Số Tướng : 43
+Số Skin : 18
+Xuất ra JSON
+Cài đặt
+Check Thường
+1-Annie|4-Twisted Fate|5-Xin Zhao|10-Kayle|11-Master Yi|12-Alistar|13-Ryze|15-Sivir|16-Soraka|17-Teemo|18-Tristana|19-Warwick|20-Nunu|22-Ashe|23-Tryndamere|24-Jax|27-Singed|28-Evelynn|32-Amumu|35-Shaco|36-Dr. Mundo|38-Kassadin|45-Veigar|48-Trundle|54-Malphite|57-Maokai|62-Ngộ Không|74-Heimerdinger|75-Nasus|78-Poppy|82-Mordekaiser|83-Yorick|84-Akali|86-Garen|98-Shen|99-Lux|104-Graves|122-Darius|133-Quinn|134-Syndra|157-Yasuo|268-Azir|420-Illaoi
+championsskin_1005-Annie Lửa Băng|championsskin_1008-Annie Gấu Trúc|championsskin_4002-Twisted Fate Bồi cơ|championsskin_11002-Master Yi Người Được Chọn|championsskin_13002-Ryze Thầy Mo|championsskin_15003-Sivir Thợ Săn|championsskin_19004-Warwick Sói Lãnh Nguyên|championsskin_23008-Tryndamere Thợ Săn Quái Thú|championsskin_24005-Jax Giác Đấu|championsskin_45003-Veigar Râu Xám|championsskin_45004-Veigar Quỷ Lùn|championsskin_57007-Maokai Vinh Quang|championsskin_75006-Nasus Đại Công Tước|championsskin_82004-Chúa Tể Mordekaiser|championsskin_84001-Akali Ong Bắp Cày|championsskin_86004-Garen Hiệp Sĩ Đen|championsskin_104014-Graves Vinh Quang|championsskin_122002-Darius Vũ Khí Sinh Học
+ Designer : Yourol
