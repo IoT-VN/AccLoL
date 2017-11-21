@@ -1,0 +1,24 @@
+Phần Mềm được SHARE FREE vĩnh viễn. Nếu có thắc mắc các bạn có thể liên hệ bên dưới để được hỗ trợ
+LOLSkinVery
+
+Check JSON
+
+
+X
+-
+Thông tin acc :
+Check SKIN LOL
+NAME : sktminhpentakill
+Rank :GOLD - III
+Khung mùa trước : UNRANKED
+Cấp : UNRANKED
+IP : 167
+RP :0
+Số Tướng : 40
+Số Skin : 3
+Xuất ra JSON
+Cài đặt
+Check Thường
+1-Annie|5-Xin Zhao|10-Kayle|11-Master Yi|13-Ryze|15-Sivir|16-Soraka|17-Teemo|18-Tristana|19-Warwick|20-Nunu|21-Miss Fortune|22-Ashe|23-Tryndamere|25-Morgana|26-Zilean|31-Cho'Gath|32-Amumu|33-Rammus|40-Janna|41-Gangplank|45-Veigar|48-Trundle|54-Malphite|55-Katarina|56-Nocturne|58-Renekton|75-Nasus|77-Udyr|78-Poppy|83-Yorick|84-Akali|86-Garen|92-Riven|98-Shen|99-Lux|120-Hecarim|141-Kayn|157-Yasuo|254-Vi
+championsskin_17005-Teemo Thỏ Phục Sinh|championsskin_26003-Zilean Hoang Mạc Shurima|championsskin_32005-Amumu Suýt Hoa Vương 
+ Designer : Yourol
