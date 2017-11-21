@@ -1,0 +1,24 @@
+Phần Mềm được SHARE FREE vĩnh viễn. Nếu có thắc mắc các bạn có thể liên hệ bên dưới để được hỗ trợ
+LOLSkinVery
+
+Check JSON
+
+
+X
+-
+Thông tin acc :
+Check SKIN LOL
+NAME : ZzzTeemonzzZ
+Rank : - 
+Khung mùa trước : UNRANKED
+Cấp : UNRANKED
+IP : 1126
+RP :0
+Số Tướng : 10
+Số Skin : 3
+Xuất ra JSON
+Cài đặt
+Check Thường
+11-Master Yi|17-Teemo|19-Warwick|20-Nunu|22-Ashe|23-Tryndamere|75-Nasus|86-Garen|157-Yasuo|238-Zed
+championsskin_11003-Master Yi Xứ Ionia|championsskin_11004-Samurai Yi|championsskin_86001-Garen Huyết Kiếm
+ Designer : Yourol
