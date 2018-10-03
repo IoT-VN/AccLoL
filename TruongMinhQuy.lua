@@ -1,14 +1,29 @@
 function bps()
-gg.searchNumber("12", gg.TYPE_WORD | gg.TYPE_DOUBLE | gg.TYPE_QWORD | gg.TYPE_DWORD | gg.TYPE_BYTE | gg.TYPE_XOR | gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.setRanges(gg.REGION_ANONYMOUS) 
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5001;1.1;1F::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100) 
+gg.searchNumber("1.2F;1.8F:9::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("1.1F;1.4F:3::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("1.1D;1.4D:2::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.clearResults() 
+gg.searchNumber("5001;1.1;1F::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(100) 
+gg.searchNumber("1.2F;1.8F:9::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("1.1F;1.4F:3::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
 gg.clearResults()
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults()
-gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(300)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
+gg.searchNumber("5001;1.1;1F::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100) 
+gg.searchNumber("1.2F;1.8F:9::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("1.1F;1.4F:3::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("1.1D;1.4D:2::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.clearResults() 
+gg.searchNumber("5001;1.1;1F::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(100) 
+gg.searchNumber("1.2F;1.8F:9::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("1.1F;1.4F:3::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
 gg.toast("Chạy ByPass Thành Công 100%")
 end
 function sbps() 
@@ -24,12 +39,14 @@ START = gg.choice({
     "[MENU] PHÒNG CHỜ",
     "[MENU] TRONG GAME",
 	"[MENU] SÚNG NGẮM [TRONG GAME]",
+	"KHÔNG GIẬT [BẬT LẠI MỖI KHI ĐỔI SÚNG]",
     "THOÁT SCRIPT"
 }, nil, 'MASTER•MIND')
 if START == 1 then LOBBY() end
 if START == 2 then LANDING() end
 if START == 3 then Sniper() end
-if START == 4 then Exit() end
+if START == 4 then NoRecoil() end
+if START == 5 then Exit() end
 XGCK=-1
 end
 
@@ -49,9 +66,10 @@ end
 
 		
 function atnA()
-gg.toast("Antenna Always Standby is Working...")
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearResults()
+gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("6666", gg.TYPE_FLOAT)
 gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1995)
@@ -62,22 +80,7 @@ gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIG
 gg.getResults(1995)
 gg.editAll("19995", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Working 50%...")
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Antenna Always Standby Active!")
-gg.toast("Prone Antenna Working")
-gg.searchNumber("0.9378669858F;1.0F;0.61365610361F::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(850)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Antenna for Prone V2Activated")
+
 end
 function WallS7e()
 gg.setRanges(gg.REGION_BAD)
@@ -109,30 +112,12 @@ gg.editAll("120",gg.TYPE_FLOAT)
 gg.clearResults()
 end
 function atnP()
+gg.searchNumber("0.9378669858F;1.0F;0.61365610361F::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+gg.editAll("9999", gg.TYPE_FLOAT)
 gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("7.1689529418945", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(3)
-  gg.editAll("999999", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("3.4779739379883;2.8345839977264;3.1967880725861;3.8841888904572;3.1528658866882::208", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("3.4779739379883", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("003,005,0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8.1993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8.1993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("99999", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("0.73620933294296", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(3)
-  gg.editAll("999999", gg.TYPE_FLOAT)
-  gg.clearResults()
-gg.toast("Antenna Iteam 3 Activated")
+gg.toast("Antenna for Prone V2Activated")
 end
 
 
@@ -157,20 +142,20 @@ end
 
 
 function BodyBlack()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("0.05499718338;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("-9999", gg.TYPE_FLOAT)
+  gg.searchNumber(" 573.70306396484;0.05499718338;1 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber(" 1.0 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1200)
+  gg.editAll("-999", gg.TYPE_FLOAT)
+  gg.clearResults(1200)
   gg.clearResults()
   gg.toast("Body Black Activated")
 end
 function BodyWhite()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("0.05499718338;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("9999", gg.TYPE_FLOAT)
+  gg.searchNumber(" 573.70306396484;0.05499718338;1 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5000)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.clearResults(5000)
   gg.clearResults()
   gg.toast("Body White has been active")
 end
@@ -181,12 +166,10 @@ MENU2 = gg.multiChoice({
 "XÓA CỎ [Map SanHok - Không ổn định]",
 "Auto HeadShot 90%",
 "ANTENA [Tích Hợp ANTENA DDV4]",
-"ANTENA Item 3",
-"Không Giật [Bật Lại Mỗi Khi Đổi Súng Hoặc Xoay Màn Hình]",
 "Đạn Đuổi",
 "Ngồi Bắn Siêu Cao",
-"AIMBOT [Không Xài Chung Với Không Giật, Xài Chung AIMBOT Mất Tác Dụng]",
-"BLACK SKY",
+"AIMBOT [SKS, M249]",
+"BLACK SKY",	
 "NO FOOT STEP",
 
     "[TRỞ LẠI]"
@@ -197,14 +180,12 @@ if MENU2[1] == true then NoGrassAll() end
 if MENU2[2] == true then NoGrassSanHok() end
 if MENU2[3] == true then AH90() end
 if MENU2[4] == true then atnA() end
-if MENU2[5] == true then atnP() end
-if MENU2[6] == true then NoRecoil() end
-if MENU2[7] == true then mg() end
-if MENU2[8] == true then NBSCON() end
-if MENU2[9] == true then AIM() end
-if MENU2[10] == true then BS() end
-if MENU2[11] == true then NFS() end
-if MENU2[12] == true then Main() end 
+if MENU2[5] == true then mg() end
+if MENU2[6] == true then NBSCON() end
+if MENU2[7] == true then AIM() end
+if MENU2[8] == true then BS() end
+if MENU2[9] == true then NFS() end
+if MENU2[10] == true then Main() end 
 end
 XGCK=-1
 end
@@ -233,38 +214,44 @@ end
 function NoRecoil()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1,084,227,584D;1D;0.64999997616F;1.2520827e-32F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.2520827e-32", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("1.4012985e-43", gg.TYPE_FLOAT)
+gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT)
+gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+gg.getResults(200)
+gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
 gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("176293393;8F;9.5F;15F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("176293393", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.toast("Kích Hoạt Thành Công Không Giật")
 end
 function AIM()
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(200)
-gg.editAll("999999", gg.TYPE_FLOAT)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-88.82363891602F;15.0F;1", gg.TYPE_FLOAT)
+gg.searchNumber("1", gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll("20000000000000", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("Kích Hoạt Thành Công AIMBOT")
 end
 
 function mg()
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("460", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("560", gg.TYPE_FLOAT)
+gg.searchNumber("1,048,130,372D;16;12.66705417633;1,119,194,409D;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("121", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("Kích Hoạt Thành Công Đạn Đuổi")
 end
+
 function NoGrassAll()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearResults()
@@ -288,16 +275,17 @@ gg.clearResults()
 gg.toast("Kích Hoạt Thành Công Map SanHok")
 end
 function AH90()
+gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
-gg.editAll("-460", gg.TYPE_FLOAT)
+gg.editAll("-468", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
-gg.editAll("-560", gg.TYPE_FLOAT)
+gg.editAll("-568", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
