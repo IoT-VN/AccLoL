@@ -10,8 +10,7 @@ gg.clearResults()
 gg.searchNumber("5001;1.1;1F::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
 gg.getResults(100) 
 gg.searchNumber("1.2F;1.8F:9::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
-gg.searchNumber("1.1F;1.4F:3::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1D;1.4D:2::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) gg.searchNumber("1.1D;1.4D:2::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
 gg.clearResults()
 gg.searchNumber("5001;1.1;1F::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100) 
@@ -22,8 +21,7 @@ gg.clearResults()
 gg.searchNumber("5001;1.1;1F::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
 gg.getResults(100) 
 gg.searchNumber("1.2F;1.8F:9::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
-gg.searchNumber("1.1F;1.4F:3::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1D;1.4D:2::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) gg.searchNumber("1.1D;1.4D:2::10",gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
 gg.toast("Chạy ByPass Thành Công 100%")
 end
 function sbps() 
@@ -66,58 +64,37 @@ end
 
 		
 function atnA()
-gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(3)
-gg.editAll("6666", gg.TYPE_FLOAT)
-gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1995)
-gg.editAll("19995", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1995)
-gg.editAll("19995", gg.TYPE_FLOAT)
-gg.clearResults()
-
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1.0;0.9537679553;0.06111789867", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("ANTENNA Backpack")
+  gg.clearResults()
+  gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("9999", gg.TYPE_FLOAT)
+  gg.toast("Antenna Run Side")
+  gg.clearResults()
 end
-function WallS7e()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2",gg.TYPE_FLOAT,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-gg.searchNumber("2",gg.TYPE_FLOAT,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-var = gg.getResults(30)
-gg.editAll("120",gg.TYPE_FLOAT)
+function AFHR()
 gg.clearResults()
--- normal range
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2",gg.TYPE_FLOAT,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-gg.searchNumber("2",gg.TYPE_FLOAT,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-var = gg.getResults(30)
-gg.editAll("120",gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("88.50576019287;87.27782440186;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(7)
+gg.editAll("1.96875", gg.TYPE_FLOAT)
 gg.clearResults()
--- normal range
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("5.1848043e-44;-1.0285578e-38;3.7615819e-37;2",gg.TYPE_FLOAT,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-gg.searchNumber("2",gg.TYPE_FLOAT,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-var = gg.getResults(30)
-gg.editAll("120",gg.TYPE_FLOAT)
-gg.clearResults()
--- normal range
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("304.00009155273;3.7615819e-37;2",gg.TYPE_FLOAT,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-gg.searchNumber("2",gg.TYPE_FLOAT,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-var = gg.getResults(30)
-gg.editAll("120",gg.TYPE_FLOAT)
-gg.clearResults()
-end
-function atnP()
-gg.searchNumber("0.9378669858F;1.0F;0.61365610361F::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.96875;1.96875;-100.91194152832;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(4)
+gg.editAll("1.96875,1.96875,-100.91194152832,999", gg.TYPE_FLOAT)
 gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(850)
-gg.editAll("9999", gg.TYPE_FLOAT)
+gg.getResults(1)
+gg.editAll("999", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Antenna for Prone V2Activated")
+gg.toast("ăng teng chọc chời đã kích hoạt")
 end
 
 
@@ -126,7 +103,7 @@ function LOBBY()
   MENU7 = gg.multiChoice({	
 "Body Black [LOBBY]",
 "Body White [LOBBY]",
-"WALL HACK S7 EDGE",
+"ANTENA PRO",
 
      "[TRỞ LẠI]"
 },nil,'PHÒNG CHỜ')
@@ -134,7 +111,7 @@ if MENU7 == nil then
 else
 if MENU7[1] == true then BodyBlack() end
 if MENU7[2] == true then BodyWhite() end
-if MENU7[3] == true then WallS7e() end
+if MENU7[3] == true then AFHR() end
 if MENU7[4] == true then Main() end 
 end
 XGCK = 1
@@ -163,54 +140,38 @@ end
 function LANDING()
 MENU2 = gg.multiChoice({
 "XÓA CỎ [Map Erangel]",
-"XÓA CỎ [Map SanHok - Không ổn định]",
 "Auto HeadShot 90%",
-"ANTENA [Tích Hợp ANTENA DDV4]",
-"Đạn Đuổi",
+"ANTENA ALWAYS",
 "Ngồi Bắn Siêu Cao",
-"AIMBOT [SKS, M249]",
-"BLACK SKY",	
-"NO FOOT STEP",
+"AIMBOT [SKS, M249, AUG, AKM, QBZ]",	
+"FAST KNOCK",
 
     "[TRỞ LẠI]"
 },nil,'LANDING')
 if MENU2 == nil then
 else
 if MENU2[1] == true then NoGrassAll() end
-if MENU2[2] == true then NoGrassSanHok() end
-if MENU2[3] == true then AH90() end
-if MENU2[4] == true then atnA() end
-if MENU2[5] == true then mg() end
-if MENU2[6] == true then NBSCON() end
-if MENU2[7] == true then AIM() end
-if MENU2[8] == true then BS() end
-if MENU2[9] == true then NFS() end
-if MENU2[10] == true then Main() end 
+if MENU2[2] == true then AH90() end
+if MENU2[3] == true then atnA() end
+if MENU2[4] == true then NBSCON() end
+if MENU2[5] == true then AIM() end
+if MENU2[6] == true then fast() end
+if MENU2[7] == true then Main() end 
 end
 XGCK=-1
 end
-function NFS()
+function fast()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("2D;256D;256D;0.96666663885117;256D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.96666663885117", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(3)
-gg.editAll("999.9949", gg.TYPE_FLOAT)
+gg.searchNumber("0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1.7", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("No Step Active!")
-end 
-
-
-function BS()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearResults()
-gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
-gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
-gg.getResults(10000)
-gg.editAll("-99", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Black Sky has been active")
+gg.toast("chúc mừng bạn chết sẽ chay rất nhanh")
 end
+
+
 function NoRecoil()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
@@ -242,16 +203,6 @@ gg.clearResults()
 gg.toast("Kích Hoạt Thành Công AIMBOT")
 end
 
-function mg()
-gg.clearResults()
-gg.searchNumber("1,048,130,372D;16;12.66705417633;1,119,194,409D;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(3)
-gg.editAll("121", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Kích Hoạt Thành Công Đạn Đuổi")
-end
-
 function NoGrassAll()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.clearResults()
@@ -263,17 +214,6 @@ gg.clearResults()
 gg.toast("Kích Hoạt Thành Công Xóa Cỏ Map Erangel")
 end
 
-function NoGrassSanHok() 
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearResults()
-gg.searchNumber("5126;3;67584::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(500)
-gg.editAll("4", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Kích Hoạt Thành Công Map SanHok")
-end
 function AH90()
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
