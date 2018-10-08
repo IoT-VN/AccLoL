@@ -83,18 +83,16 @@ end
 function AFHR()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("88.50576019287;87.27782440186;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("88.50576019287F;87.27782440186F;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(7)
 gg.editAll("1.96875", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.searchNumber("1.96875;1.96875;-100.91194152832;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("1.96875,1.96875,-100.91194152832,999", gg.TYPE_FLOAT)
+gg.searchNumber("1.96875F;1.96875F;-100.91194152832;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1)
 gg.editAll("999", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("ăng teng chọc chời đã kích hoạt")
+gg.toast("ANTENA PRO")
 end
 
 
@@ -128,23 +126,28 @@ function BodyBlack()
   gg.toast("Body Black Activated")
 end
 function BodyWhite()
-  gg.searchNumber(" 573.70306396484;0.05499718338;1 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(5000)
-  gg.editAll("999", gg.TYPE_FLOAT)
-  gg.clearResults(5000)
-  gg.clearResults()
-  gg.toast("Body White has been active")
+gg.clearResults()
+gg.searchNumber(" 573.70306396484;0.05499718338;1 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5000)
+gg.editAll("999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.05499718338;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.toast("Body White has been active")
 end
 
 function LANDING()
 MENU2 = gg.multiChoice({
 "XÓA CỎ [Map Erangel]",
-"Auto HeadShot 90%",
+"Auto HeadShot 95%",
 "ANTENA ALWAYS",
 "Ngồi Bắn Siêu Cao",
 "AIMBOT [SKS, M249, AUG, AKM, QBZ]",	
-"FAST KNOCK",
+"SPEED HACK",
 
     "[TRỞ LẠI]"
 },nil,'LANDING')
@@ -215,31 +218,24 @@ gg.toast("Kích Hoạt Thành Công Xóa Cỏ Map Erangel")
 end
 
 function AH90()
-gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
-gg.editAll("-468", gg.TYPE_FLOAT)
+gg.editAll("-460", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
-gg.editAll("-568", gg.TYPE_FLOAT)
+gg.editAll("-560", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
-gg.editAll("210", gg.TYPE_FLOAT)
+gg.editAll("250", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.setRanges(gg.REGION_C_BSS)
-gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("0.07", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Kích Hoạt Thành Công Auto HeadShot 90%")
+gg.toast("Kích Hoạt Thành Công Auto HeadShot 95%")
 end  
 
 
